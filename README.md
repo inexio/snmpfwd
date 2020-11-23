@@ -17,6 +17,12 @@ Typical use case for an SNMP proxy is to work as an application-level firewall
 or a protocol translator that enables SNMPv3 access to a SNMPv1/SNMPv2c
 entity or vice versa.
 
+Why this fork?
+--------------
+[Original project](https://github.com/etingof/snmpfwd) by [Ilya Etingof](https://github.com/etingof) seems not to be continued anymore.
+Because of that, we try to maintain / enhance SNMP Proxy Forwarder.
+
+
 Features
 --------
 
@@ -62,5 +68,7 @@ If something does not work as expected or we are missing an interesting feature,
 post your question [on Stack Overflow](https://stackoverflow.com/questions/ask).
 
 Finally, your PRs are warmly welcome! ;-)
+
+If you want to contact us, please mail to the [Thola Team](mailto:snmplabs@thola.io)
 
 Copyright (c) 2014-2019, [Ilya Etingof](mailto:etingof@gmail.com). All rights reserved.
