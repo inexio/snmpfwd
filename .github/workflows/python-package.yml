@@ -33,5 +33,5 @@ jobs:
         pip install -e .
     - name: Run test
       run: |
-        python snmpfwd-client.py --help 2>&1 | grep Usage
-        python snmpfwd-server.py --help 2>&1 | grep Usage
+        snmpfwd-client.py --help 2>&1 | grep Usage
+        snmpfwd-server.py --help 2>&1 | grep Usage
